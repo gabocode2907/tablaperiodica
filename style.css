@@ -1,0 +1,41 @@
+*{
+    outline: dotted red;
+}
+
+.container {
+    height: 600px;
+    width: 1110px;
+    margin: 0px auto;
+    background-color: lightgray;
+}
+
+    .container .header{
+        height: 50px;
+        width: 1110px;
+    }
+        .container .header .lcorner {
+            color: red;
+            height: 45px;
+            width: 45px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+        }
+
+        .container .header .topn {
+            color: red;  
+            height: 15px;
+            width: 15px;
+            padding: 15px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+        }
+
+        .container .header .topr {
+            padding-left: 20px;
+            height: 50px;
+            width: 1030px;
+            margin: 0px;
+            display: inline-block;
+        }
